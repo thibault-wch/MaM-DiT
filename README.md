@@ -53,8 +53,8 @@ Clone the repository and install the required dependencies:
 * **Configure weights:** First, manually update the pre-trained weight path (obtained from the Unified VAE) within `MaM_DiT/mdm_train.py`.
 * **Train the model:** Execute the MaM-DiT training script:
 ```bash
-cd MaM_DiT
-bash mamdit_train.sh
+    cd MaM_DiT
+    bash mamdit_train.sh
 
 ```
 
