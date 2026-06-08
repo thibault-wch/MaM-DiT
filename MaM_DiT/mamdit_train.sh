@@ -1,0 +1,18 @@
+CUDA_VISIBLE_DEVICES=0 torchrun --nnodes=1 --nproc_per_node=1 --master_port 26641 mamdit_train.py \
+--lr 1e-5 \
+--results_dir /cpfs01/projects-HDD/cfff-7abceac4e328_HDD/dhm_41310/chwang/Logs/PETLDM/LDM \
+--depth 16 \
+--hidden_size 1536 \
+--input_size1 24 \
+--input_size2 28 \
+--input_size3 24 \
+--patch_size 2 \
+--num_head 24 \
+--epochs 1000 \
+--global_batch_size 8 \
+--num_workers 16 \
+--log_every 1 \
+--ckpt_every 100 \
+--enable_modulate_kernel \
+--enable_layernorm_kernel \
+--enable_flashattn

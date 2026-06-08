@@ -1,0 +1,14 @@
+python ./mdm_train.py \
+--gpu_ids 2 \
+--batch_size 8 \
+--checkpoints_dir /chwang/1_log/Modality_Discriminator \
+--workers 8 \
+--print_freq 1 \
+--save_epoch_freq 1 \
+--lr 0.0001 \
+--epoch_count 60 \
+--print_freq 1 \
+--cls_type resnet3d \
+--class_num 4 \
+--pretrained_pth  /chwang/1_log/Modality_Discriminator_down/exp1/40_net.pth \
+--name modality_discriminative_model
