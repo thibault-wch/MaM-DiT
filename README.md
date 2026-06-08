@@ -63,7 +63,7 @@ Clone the repository and install the required dependencies:
 
 > **📌 Important Note:**
 > 
-> 1. All models in this framework utilize a **two-stage training strategy**. They must first be trained on a low-resolution scale (128 × 128 × 128) and subsequently fine-tuned on the full-resolution images.
+> 1. All models in this framework utilize a **two-stage training strategy**. They are first trained on low-resolution data (128 × 128 × 128), then fine-tuned on full-resolution images. 
 >
 > 2. **`ADNI-PTID.xlsx`**: Contains the specific subject IDs from the **ADNI database** used in our experiments. This is provided to facilitate exact data splits and ensure full reproducibility.
 
