@@ -73,7 +73,7 @@ We have open-sourced our standardized pipeline for data processing and metric ca
 
 ## 📝 Citation
 
-If you find this code or our paper useful for your research, please star this repository and cite our work:
+If you find this code or our paper useful for your research, please star 🌟 this repository and cite our work:
 
 ```bibtex
 @article{wang2026manifold,
