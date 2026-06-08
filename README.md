@@ -1,4 +1,4 @@
-# Manifold diffusion transformer enables diagnostic multi-tracer PET synthesis
+#  MaM-DiT: Manifold diffusion transformer enables diagnostic multi-tracer PET synthesis from MRI for early detection of Alzheimer's disease
 
 [![Paper](https://img.shields.io/badge/Paper-The%20Innovation%20Informatics-blue)](https://www.the-innovation.org/data/article/informatics/preview/pdf/TII-2026-0026.pdf)
 
